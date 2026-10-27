@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+build/
+
+# Virtual environment
+.venv/
+
+# Node / npm
+node_modules/
+npm-debug.log
+
+# Vite / build artifacts
+/dist/
+/.vite/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.local
+
+# SQLite database (future)
+*.sqlite3

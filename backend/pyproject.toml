@@ -1,0 +1,16 @@
+[project]
+name = "tokenscope-backend"
+version = "0.1.0"
+description = "FastAPI backend for TokenScope"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+# Runtime dependencies – array format per PEP 621
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.30",
+]
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"

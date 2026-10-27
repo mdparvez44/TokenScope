@@ -1,0 +1,23 @@
+[project]
+name = "tokenscope"
+version = "0.1.0"
+description = "Local‑first SDK for LLM context inspection"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+# Runtime dependencies – expressed as an array per PEP 621
+dependencies = [
+    "pydantic>=2.0",
+    "tiktoken>=0.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
